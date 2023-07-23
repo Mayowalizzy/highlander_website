@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>HighLander</title>
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+	<link rel="stylesheet" href="../css/style.css" />
+</head>
+<body>
+	<header>
+		<div class="container">
+			<h2><span>High</span>Lander</h2>
+			<nav>
+				<a href="#">Home</a>
+		        <a href="./about.html">About</a>
+		        <a href="./rooms.html">Rooms</a>
+		        <a href="#">Contact</a>
+			</nav>
+			<button class="hamburger">
+				<div class="bar"></div>
+			</button>
+		</div>
+	</header>
+	<nav class="mobile-nav">
+		<a href="#">Home</a>
+		<a href="./about.html">About</a>
+		<a href="./rooms.html">Rooms</a>
+		<a href="#">Contact</a>
+        
+	</nav>
+     <!---main-->
+	<main>
+		<section class="banner">
+			<div class="container">
+				<h1>TOP HOTEL IN THE CITY</h1>
+                 <p>We are focused on providing clients with the highest level <br>
+                     of comfort and excellent affordable rates.</p>
+				<a href="#" class="button">Book Here</a>
+			</div>
+		</section>
+ <!---booking form-->
+        <div class = "book">
+            <form class = "book-form">
+                <div class = "form-item">
+                    <label for = "checkin-date">Check In Date: </label>
+                    <input type = "date" id = "chekin-date">
+                </div>
+                <div class = "form-item">
+                    <label for = "checkout-date">Check Out Date: </label>
+                    <input type = "date" id = "chekout-date">
+                </div>
+                <div class = "form-item">
+                    <label for = "adult">Adults: </label>
+                    <input type = "number" min = "1" value = "1" id = "adult">
+                </div>
+                <div class = "form-item">
+                    <label for = "children">Children: </label>
+                    <input type = "number" min = "1" value = "1" id = "children">
+                </div>
+                <div class = "form-item">
+                    <label for = "rooms">Rooms: </label>
+                    <input type = "number" min = "1" value = "1" id = "rooms">
+                </div>
+                <div class = "form-item">
+                    <input type = "submit" class = "btn" value = "Book Now">
+                </div>
+            </form>
+        </div>
+
+        <!---holiday-->
+        <section class="holiday">
+            <div class="holiday-img">
+                <img src="../images/feauture1.jpg" alt="">
+            </div>
+            <div class="holiday-text">
+                <h5>Welcome</h5>
+                <h2>Want a very enjoyable holiday</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                     Iure, pariatur reiciendis? Temporibus coknsequatur dolores
+                      ducimus exercitationem totam repudiandae beatae 
+                      quibusdam consectetur dolorum voluptas molestiae
+                      natus quis incidunt expedita magni, voluptatibus
+                       dolorem omnis debitis voluptates eveniet labore
+                        repellat alias. Nulla voluptatem quidem soluta
+                         molestiae a architecto facere velit tempore alias praesentium!</p><br>
+                         <a href="#" class="button">Read more</a>
+            </div>
+
+        </section>
+
+        <!--pages-->
+        <section class="tour">
+            <div class="center-text">
+                <h2>PAGES</h2>
+                <hr class="m">
+            </div>
+
+            <div class="tour-content">
+                <div class="box">
+                    <img src="../images/tour1.webp" alt="">
+                    <h6>lorem</h6>
+                    <h4>lorem ipsum</h4>
+                </div>
+
+                <div class="box">
+                    <img src="../images/tour3.avif">
+                    <h6>lorem</h6>
+                    <h4>lorem ipsum</h4>
+                </div>
+
+                <div class="box">
+                    <img src="../images/tour3.webp" alt="">
+                    <h6>lorem</h6>
+                    <h4>lorem ipsum</h4>
+                </div>
+            </div>
+
+            <div class="center-btn">
+                <a href="#" class="button">see Tour</a>
+            </div>
+        </section>
+
+        <!--footer-->
+        <hr class="h">
+        <section class="footer">
+            <div class="footer-box">
+                <h3>Services</h3>
+                <a href="#">Email Marketing</a>
+                <a href="#">Campaigns</a>
+                <a href="#">Brandings</a>
+                <a href="#">Offline</a>
+            </div>
+
+            <div class="footer-box">
+                <h3>About</h3>
+                <a href="#">Our story</a>
+                <a href="#">Benefits</a>
+                <a href="#">Team</a>
+                <a href="#">Careers</a>
+            </div>
+
+            <div class="footer-box">
+                <h3>help</h3>
+                <a href="#">FAQ</a>
+                <a href="#">Contact us</a>
+            </div>k
+
+            <div class="footer-box">
+                <h3>socials</h3>
+                <div class="social">
+                    <a href="#"><i class='bx bxl-instagram'></i></a>
+                    <a href="#"><i class='bx bxl-twitter' ></i></a>
+                    <a href="#"><i class='bx bxl-facebook-circle' ></i></a>
+                </div>
+            </div>
+
+        </section>
+	<script src="../javascript/script.js"></script>
+</body>
+</html>
